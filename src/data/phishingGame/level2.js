@@ -106,7 +106,7 @@ export const level2 = {
           explanation:
               'A time reference is not suspicious by itself. It becomes concerning when combined with urgent pressure or requests for sensitive data.',
         },
-        { id: 'br2', text: '\n\n', suspicious: false },
+        { id: 'br2', text: '\n', suspicious: false },
         {
           id: 'pressure',
           text: 'Your account will be suspended in 2 hours unless you verify your identity.',
@@ -116,17 +116,16 @@ export const level2 = {
           explanation:
               'A two-hour deadline creates pressure. This is a social engineering tactic designed to make the user act before properly checking the email.',
         },
-        { id: 'br3', text: '\n\n', suspicious: false },
         {
           id: 'request',
-          text: 'Please confirm your password and account details to prevent suspension.',
+          text: ' Please confirm your password and account details to prevent suspension.',
           suspicious: true,
           conceptId: 'sensitive-data-request',
           label: 'Sensitive data request',
           explanation:
               'The email asks for sensitive account information. Passwords and account details should not be confirmed through an email request.',
         },
-        { id: 'br4', text: '\n\n', suspicious: false },
+        { id: 'br4', text: '\n', suspicious: false },
         {
           id: 'explanation',
           text: 'This verification is required to keep your account active and avoid interruption to your services. ',
@@ -237,7 +236,7 @@ export const level2 = {
           explanation:
               'Reference numbers can appear in both legitimate and phishing emails. They are not suspicious by themselves.',
         },
-        { id: 'br2', text: '\n\n', suspicious: false },
+        { id: 'br2', text: '\n', suspicious: false },
         {
           id: 'refund',
           text: 'You have an unclaimed refund of €284.60.',
@@ -247,17 +246,16 @@ export const level2 = {
           explanation:
               'Unexpected money can be used as a reward lure. The goal is to make the user excited enough to continue without careful verification.',
         },
-        { id: 'br3', text: '\n\n', suspicious: false },
         {
           id: 'deadline',
-          text: 'The refund must be claimed before midnight or it will expire.',
+          text: ' The refund must be claimed before midnight or it will expire.',
           suspicious: true,
           conceptId: 'artificial-urgency',
           label: 'Artificial deadline',
           explanation:
               'The deadline creates pressure and discourages verification through official channels. This is an urgency-based social engineering tactic.',
         },
-        { id: 'br4', text: '\n\n', suspicious: false },
+        { id: 'br4', text: '\n', suspicious: false },
         {
           id: 'process',
           text: 'The refund can be processed after your information is confirmed in the refund form.',
@@ -267,10 +265,9 @@ export const level2 = {
           explanation:
               'A process description is not suspicious by itself. The problem is what information the email asks the user to submit.',
         },
-        { id: 'br5', text: '\n\n', suspicious: false },
         {
           id: 'request',
-          text: 'To process the refund, confirm your full name, date of birth, address, and card number.',
+          text: ' To process the refund, confirm your full name, date of birth, address, and card number.',
           suspicious: true,
           conceptId: 'sensitive-data-request',
           label: 'Personal and payment data request',
@@ -361,6 +358,7 @@ export const level2 = {
           explanation:
               'Delivery messages can be legitimate. Phishing uses this scenario because many people receive or expect parcels.',
         },
+        { id: 'br2', text: ' ', suspicious: false },
         {
           id: 'tracking',
           text: 'Tracking reference: PRC-775391-LT.',
@@ -370,7 +368,7 @@ export const level2 = {
           explanation:
               'A tracking reference is not suspicious by itself. Attackers can also include realistic-looking reference numbers.',
         },
-        { id: 'br2', text: '\n\n', suspicious: false },
+        { id: 'br2', text: '\n', suspicious: false },
         {
           id: 'reason',
           text: 'The parcel cannot be released until the outstanding handling fee is completed.',
@@ -380,6 +378,7 @@ export const level2 = {
           explanation:
               'This sentence describes a delivery process. The suspicious clue is the unexpected payment request and pressure to act today.',
         },
+        { id: 'br2', text: ' ', suspicious: false },
         {
           id: 'fee',
           text: 'A fee of €1.99 is required to release your parcel.',
@@ -389,7 +388,7 @@ export const level2 = {
           explanation:
               'A small fee can make the request feel low-risk. The real danger may be entering card details on a phishing page.',
         },
-        { id: 'br4', text: '\n\n', suspicious: false },
+        { id: 'br4', text: '\n', suspicious: false },
         {
           id: 'return',
           text: 'If payment is not completed today, the parcel will be returned to sender.',

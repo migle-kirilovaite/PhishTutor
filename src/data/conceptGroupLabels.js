@@ -2,17 +2,17 @@
   // Level 1 groups
   'sender-identity': {
     label: 'Sender identity',
-    body: 'Attackers may impersonate legitimate entities by using trusted display names, official-sounding sender names, or lookalike email domains. Always compare the visible sender name with the actual sender address and domain.',
+    body: 'Attackers may impersonate legitimate entities by using trusted display names, official-sounding departments, generic email accounts, or lookalike sender domains. Always compare the visible sender name with the actual sender address and domain.',
   },
 
   'url-inspection': {
     label: 'URL and link inspection',
-    body: 'Phishing links may use lookalike domains, trusted words in the URL path, or HTTPS to appear safe. HTTPS only encrypts the connection; it does not prove that the website belongs to the organization it imitates.',
+    body: 'Phishing links may use lookalike domains, trusted words in the URL path, shortened URLs, or HTTPS to appear safe. HTTPS only encrypts the connection; it does not prove that the website belongs to the organization it imitates.',
   },
 
   'neutral-email-elements': {
     label: 'Normal email elements',
-    body: 'Subjects, greetings, timestamps, reference numbers, footers, signatures, and automated-message wording are not suspicious by themselves. These elements can appear in legitimate emails and can also be copied by attackers.',
+    body: 'Subjects, greetings, timestamps, tracking numbers, invoice numbers, file names, footers, signatures, and automated-message wording are not suspicious by themselves. These elements can appear in legitimate emails and can also be copied by attackers.',
   },
 
     // Level 2 groups

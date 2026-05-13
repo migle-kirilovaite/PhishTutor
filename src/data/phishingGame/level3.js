@@ -98,6 +98,7 @@ export const level3 = {
           explanation:
               'The email uses a plausible internal context to create familiarity. This does not prove phishing by itself, but in spear phishing such details are suspicious cues because they can be used to lower the user’s guard.',
         },
+        { id: 'br1', text: '\n', suspicious: false },
         {
           id: 'neutralDetail',
           text: 'I added the action items we discussed and cleaned up the section about next sprint priorities. ',
@@ -107,6 +108,7 @@ export const level3 = {
           explanation:
               'The message includes specific work-related details to make the email feel more believable. In this level, this is treated as a suspicious spear-phishing cue because it supports the impersonation attempt.',
         },
+        { id: 'br1', text: '\n', suspicious: false },
         {
           id: 'attendees',
           text: 'The notes also include the decisions from the product and finance discussion.',
@@ -145,7 +147,7 @@ export const level3 = {
           explanation:
               'The request uses a normal workplace rhythm to make the attachment feel expected and safe. This creates light pressure to open it quickly.',
         },
-        { id: 'br4', text: '\n\n', suspicious: false },
+        { id: 'br4', text: '\n', suspicious: false },
         {
           id: 'availability',
           text: 'I will be in meetings most of the morning but can update the notes later if needed. ',
@@ -212,6 +214,7 @@ export const level3 = {
           explanation:
               'The email imitates an internal access-management process. This is a suspicious cue in spear phishing because attackers often imitate routine workplace systems to gain trust.',
         },
+        { id: 'br1', text: '\n', suspicious: false },
         {
           id: 'policy',
           text: 'This review is part of the quarterly cleanup of inactive shared folder permissions. ',
@@ -230,7 +233,7 @@ export const level3 = {
           explanation:
               'This is a normal administrative detail. It contributes realism but is not a phishing indicator by itself.',
         },
-        { id: 'br2', text: '\n\n', suspicious: false },
+        { id: 'br2', text: '\n', suspicious: false },
         {
           id: 'instruction',
           text: 'Please review your current folder access and confirm that your permissions are still required.',
@@ -269,7 +272,7 @@ export const level3 = {
           explanation:
               'This timeline is not strongly suspicious because it does not create immediate pressure. The fake portal is the main warning sign.',
         },
-        { id: 'br5', text: '\n\n', suspicious: false },
+        { id: 'br5', text: '\n', suspicious: false },
         {
           id: 'contact',
           text: 'For general access questions, contact the service desk through the internal help portal. ',
@@ -336,6 +339,7 @@ export const level3 = {
           explanation:
               'The message references a specific project and supplier to make the request feel familiar. This is a suspicious cue in spear phishing because attackers may use researched or leaked workplace details to manipulate trust.',
         },
+        { id: 'br1', text: '\n', suspicious: false },
         {
           id: 'normalDetail',
           text: 'The document includes the contact list, expected delivery dates, and the first version of the handover checklist. ',
@@ -345,6 +349,7 @@ export const level3 = {
           explanation:
               'The email includes detailed supplier and project information to appear more believable. In this level, this is suspicious because it shows how targeted details can be used to build trust.',
         },
+        { id: 'br1', text: '\n', suspicious: false },
         {
           id: 'supplier-note',
           text: 'I also added the supplier onboarding owner and the internal review column.',
@@ -383,6 +388,7 @@ export const level3 = {
           explanation:
               'This is a normal collaboration statement. It should not be marked suspicious unless combined with stronger indicators.',
         },
+        { id: 'br1', text: '\n', suspicious: false },
         {
           id: 'meeting-note',
           text: 'If needed, we can also bring this to the supplier readiness call next week.',

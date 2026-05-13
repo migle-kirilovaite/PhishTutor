@@ -87,7 +87,7 @@ export const level4 = {
           explanation:
               'Short executive-style messages can be legitimate. The risk appears when they escalate into urgent, secretive, or unusual requests.',
         },
-        { id: 'br1', text: '\n\n', suspicious: false },
+        { id: 'br1', text: '\n', suspicious: false },
         {
           id: 'meeting',
           text: 'I am going into a meeting and cannot take calls. ',
@@ -106,6 +106,7 @@ export const level4 = {
           explanation:
               'Client follow-up context can be normal. The suspicious indicators are the authority pressure, blocked verification, and unusual request.',
         },
+        { id: 'br1', text: '\n', suspicious: false },
         {
           id: 'availability',
           text: 'I only have a short window before the next discussion starts.',
@@ -115,17 +116,16 @@ export const level4 = {
           explanation:
               'The sender creates time pressure by suggesting there is only a short window to act. This discourages careful verification.',
         },
-        { id: 'br2', text: '\n\n', suspicious: false },
         {
           id: 'request',
-          text: 'I need you to purchase five €100 gift cards for a client matter.',
+          text: ' I need you to purchase five €100 gift cards for a client matter.',
           suspicious: true,
           conceptId: 'authority-urgency-request',
           label: 'Unusual financial request',
           explanation:
               'Gift card requests are a common executive impersonation scam. The request is unusual and should be verified separately.',
         },
-        { id: 'br3', text: '\n\n', suspicious: false },
+        { id: 'br3', text: '\n', suspicious: false },
         {
           id: 'urgency',
           text: 'Please handle this within the next 30 minutes. ',
@@ -144,7 +144,7 @@ export const level4 = {
           explanation:
               'The sender asks the recipient not to involve others. Secrecy is used to prevent verification and isolate the victim.',
         },
-        { id: 'br4', text: '\n\n', suspicious: false },
+        { id: 'br4', text: '\n', suspicious: false },
         {
           id: 'followup',
           text: 'Send me the codes once you have them.',
@@ -154,7 +154,7 @@ export const level4 = {
           explanation:
               'Asking for gift card codes is a major scam indicator. Once sent, the value can be stolen immediately.',
         },
-        { id: 'br5', text: '\n\n', suspicious: false },
+        { id: 'br5', text: '\n', suspicious: false },
         {
           id: 'expense-note',
           text: 'You can file the expense later today after I confirm the client details. ',
@@ -220,6 +220,7 @@ export const level4 = {
           explanation:
               'Secrecy prevents the recipient from verifying the request with others. This is a common authority-abuse tactic.',
         },
+        { id: 'br1', text: '\n', suspicious: false },
         {
           id: 'normalContext',
           text: 'The supplier contract was finalized last week and the invoice is now ready for settlement. ',
@@ -238,7 +239,7 @@ export const level4 = {
           explanation:
               'Invoice reference numbers can appear in legitimate and phishing emails. They are not suspicious by themselves.',
         },
-        { id: 'br2', text: '\n\n', suspicious: false },
+        { id: 'br2', text: '\n', suspicious: false },
         {
           id: 'payment',
           text: 'The supplier has updated their bank details for today’s invoice settlement.',
@@ -248,7 +249,7 @@ export const level4 = {
           explanation:
               'Unexpected changes to payment details are high-risk and should always follow verified finance procedures.',
         },
-        { id: 'br3', text: '\n\n', suspicious: false },
+        { id: 'br3', text: '\n', suspicious: false },
         {
           id: 'bypass',
           text: 'Please process this manually because the approval system has not been updated yet.',
@@ -287,7 +288,7 @@ export const level4 = {
           explanation:
               'The deadline adds pressure to complete the payment quickly. In a payment-change context, this should be treated carefully.',
         },
-        { id: 'br6', text: '\n\n', suspicious: false },
+        { id: 'br6', text: '\n', suspicious: false },
         {
           id: 'no-system-note',
           text: 'Do not wait for the portal update because it may delay the supplier onboarding.',
@@ -353,6 +354,7 @@ export const level4 = {
           explanation:
               'This sounds like normal executive document detail. The suspicious parts are the sender identity, portal, secrecy, and process bypass.',
         },
+        { id: 'br1', text: '\n', suspicious: false },
         {
           id: 'board-context',
           text: 'The board packet will be circulated after the final review is complete.',
@@ -362,7 +364,7 @@ export const level4 = {
           explanation:
               'Board-process wording can be normal in executive workflows. It is not suspicious without the unusual link or process bypass.',
         },
-        { id: 'br2', text: '\n\n', suspicious: false },
+        { id: 'br2', text: '\n', suspicious: false },
         {
           id: 'portal',
           text: 'Use the secure review portal below. Do not upload this to the normal document system yet.',
@@ -401,7 +403,7 @@ export const level4 = {
           explanation:
               'Asking for comments can be normal. The suspicious part is the unfamiliar portal and instruction to avoid the normal system.',
         },
-        { id: 'br5', text: '\n\n', suspicious: false },
+        { id: 'br5', text: '\n', suspicious: false },
         {
           id: 'secrecy',
           text: 'Keep this between us until the report is final.',
@@ -411,7 +413,7 @@ export const level4 = {
           explanation:
               'Secrecy limits verification and makes the recipient more dependent on the attacker’s instructions.',
         },
-        { id: 'br6', text: '\n\n', suspicious: false },
+        { id: 'br6', text: '\n', suspicious: false },
         {
           id: 'schedule',
           text: 'I will be unavailable for most of the afternoon, so please use the portal rather than messaging me. ',
