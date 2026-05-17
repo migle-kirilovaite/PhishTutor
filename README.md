@@ -6,7 +6,7 @@ PhishTutor is an interactive web-based educational phishing attack prevention ga
 
 ## Links
 
-- **[Deployed Game](https://example-deployed-game-url.com)** - Play PhishTutor online
+- **[Deployed Game](https://migle-kirilovaite.github.io/PhishTutor/)** - Play PhishTutor online
 
 ## Running Instructions
 
