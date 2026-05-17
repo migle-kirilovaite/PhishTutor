@@ -1,7 +1,7 @@
 ﻿export default function InfoModal({ level, explanations, onClose }) {
   return (
     <div
-      className="fixed inset-0 z-[10000] flex items-center justify-center p-6 pt-32"
+      className="fixed inset-0 z-[10000] flex items-center justify-center p-6 pt-40 pr-70"
       onClick={(e) => e.target === e.currentTarget && onClose()}
     >
       <div className="w-full max-w-2xl border-2 border-violet-300 bg-violet-100 p-6 shadow-2xl">
