@@ -2,7 +2,7 @@
 
 ## Overview
 
-PhishTutor is an interactive web-based educational phishing attack prevention game designed to teach users how to identify and recognize phishing attacks. This project was developed as part of a bachelor thesis to improve user phishing attack awareness through gamified, hands-on learning experiences. The game's functionality and design rationale are described in detail in the thesis.
+PhishTutor is an interactive web-based educational phishing attack prevention game prototype designed to teach users how to identify and recognize phishing attacks. This project was developed as part of a bachelor thesis to improve user phishing attack awareness through gamified, hands-on learning experiences. The game's functionality and design rationale are described in detail in the thesis.
 
 ## Links
 
