@@ -52,7 +52,7 @@ export default function PracticePage({ level, email, practiceIndex, totalPractic
       <LevelProgressBar
         progress={progress}
         label={`Level ${level?.id ?? 1} progression:`}
-        subtitle="Click the email parts to get instant feedback."
+        subtitle="Click the parts of email that look suspicious."
         isPractice={true}
       />
       <div className="flex w-full flex-1 flex-col p-0">

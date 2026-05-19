@@ -278,7 +278,7 @@ export default function App() {
   };
   return (
     <div className="flex min-h-dvh flex-col bg-stone-50 font-sans lg:flex-row">
-      <Sidebar activeLevelId={activeLevelId} progress={totalProgress} onSelectLevel={handleSelectLevel} onNavigate={handleNavigate} onTutorial={() => setShowTut(true)} />
+      <Sidebar activeLevelId={page === 'welcome' || page === 'about' ? null : activeLevelId} progress={totalProgress} onSelectLevel={handleSelectLevel} onNavigate={handleNavigate} onTutorial={() => setShowTut(true)} />
       <main className="flex min-w-0 flex-1 flex-col overflow-y-scroll">{renderMain()}</main>
       {showTut && <Tutorial onClose={() => setShowTut(false)} />}
       {showInfo && <InfoModal level={activeLevel} explanations={activeLevel.explanations} onClose={() => setShowInfo(false)} />}
