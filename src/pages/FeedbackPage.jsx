@@ -41,7 +41,7 @@ export default function FeedbackPage({ mode = 'practice', title, intro, items = 
           <div className="mt-8 flex items-end justify-between gap-4 border-t border-stone-100 pt-6">
             <p className="max-w-2xl text-[clamp(0.82rem,1.05vw,0.92rem)] leading-relaxed text-stone-500">
               {mode === 'level'
-                ? 'Your progression was recorded, however you scored only half the points and it is advised you repeat this level.'
+                ? 'Your progression was recorded, it is advised to replay the level regularly to reinforce the learned concepts.'
                 : 'Review the concepts above, then continue when you are ready.'}
             </p>
             <button onClick={onPrimaryAction} className="rounded-md bg-slate-700 px-4 py-2 text-[0.82rem] font-semibold text-white transition-colors hover:bg-slate-800">
